@@ -4,7 +4,118 @@
  *
  * Site Styles
  *****************************************************************************/
+/* html {
+  height:100%;
+}
+ */
+header {
+  background-image: url('../img/monkaa_title.jpg');
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 
- html {
-     color: green;
- }
+.header-text {
+  padding-left: 100px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  background-color: rgba(255,255,255,0.5);
+
+}
+h1, p.subtitle {
+  margin: 0;
+}
+#social h2 {
+  padding-left: 40px;
+}
+
+.top-nav {
+  position: absolute;
+  top: 5px;
+  left: 300px;
+  font-size: 1.3em;
+  word-spacing: 1em;
+}
+.top-nav li a, .bot-nav li a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-image: url('../img/grad-background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#watch,#listen,#about,footer {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: rgba(255,255,255,0.5);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+}
+section#watch {
+  margin-top: 25px;
+}
+.download-buttons {
+  text-align: center;
+}
+
+#social {
+  background: LightSkyBlue;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 25px;
+  transition: 2s width;
+
+}
+#social:hover {
+  width: 200px;
+
+}
+#social ul {
+  list-style-type: none;
+}
+
+.weybec-people li img {
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+}
+.weybec-people li {
+  display: inline-block;
+  text-align: center;
+  padding: 25px;
+}
+.weybec-people {
+   list-style-type: none;
+}
+section#about p.lead, div.about-text{
+  background-color: LightSkyBlue;
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+}
+section#about img.monkaa-profile {
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+  margin: 0px auto;
+  display: block;
+}
+nav li {
+  list-style-type: none;
+  display: inline-block;
+}
+.bot-nav {
+  font-size: 1.3em;
+  word-spacing: 1em;
+  padding-bottom: 15px;
+}
